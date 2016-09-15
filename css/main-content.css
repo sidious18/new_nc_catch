@@ -187,8 +187,7 @@
 @media (max-width: 768px){
 	.main-content{
 		padding:0 15px;
-		flex-wrap: wrap;
-		flex-direction: column;
+		display: block;
 	}
 	.blog{
 		width: 100%;

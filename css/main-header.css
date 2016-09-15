@@ -81,6 +81,10 @@
 	height: 100%;
 }
 
+#navbar{
+	-webkit-overflow-scrolling: touch;
+}
+
 @media(max-width: 768px){
 	.main-header-logo{
 		width: 200px;
