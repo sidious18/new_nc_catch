@@ -130,6 +130,10 @@
 		display: none;
 	}
 
+	.main-menu-list{
+		overflow: hidden;
+	}
+
 	.main-menu-list > li{
 		display: block;
 	}
