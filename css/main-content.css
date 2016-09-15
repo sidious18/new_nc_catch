@@ -188,6 +188,7 @@
 	.main-content{
 		padding:0 15px;
 		flex-wrap: wrap;
+		flex-direction: column;
 	}
 	.blog{
 		width: 100%;
