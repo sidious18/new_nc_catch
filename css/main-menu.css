@@ -32,6 +32,7 @@
 	padding: 0;
 	background: #344CAF;
 	margin:0;
+	-webkit-overflow-scrolling: touch;
 }
 
 .main-menu-list > li{
