@@ -13,6 +13,7 @@
 .main-header-logo{
 	width: 40%;
 	margin-left: -1%;
+	padding-top: 0.7rem;
 }
 
 .main-header-search{
@@ -43,12 +44,16 @@
 }
 
 .main-header-search-input.email:before{
-	content: "\2709";
-	font-family: 'Glyphicons Halflings';
-	color:#777;
+	content: "";
+	display: inline-block;
+	width: 1.2rem;
+	height: 1rem;
+	background-image: url(../img/envelope-icon.png);
+	color: #777;
 	position: absolute;
-	top:0.5rem;
-	left:1rem;
+	top: 0.7rem;
+	left: 0.85rem;
+	background-size: cover;
 }
 
 .main-header-search-input.search:before{
@@ -83,11 +88,19 @@
 
 #navbar{
 	-webkit-overflow-scrolling: touch;
+	padding:0;
+	position: relative;
+	z-index: 3;
+}
+
+.navbar-containter{
+	background: #DDDCDC;
 }
 
 @media(max-width: 768px){
 	.main-header-logo{
 		width: 200px;
+		padding-top: 0;
 	}
 
 	.main-header{
